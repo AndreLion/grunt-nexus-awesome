@@ -1,0 +1,6 @@
+node_modules
+npm-debug.log
+jshint_checkstyle.xml
+src
+test_reports
+*.swp

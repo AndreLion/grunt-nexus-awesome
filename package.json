@@ -1,0 +1,40 @@
+{
+  "name": "grunt-nexus-awesome",
+  "description": "A plugin for downloading tarballed artifacts from a Nexus repository",
+  "version": "1.0.0",
+  "homepage": "https://github.com/AndreLion/grunt-nexus-awesome",
+  "author": "AndreLion",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:AndreLion/grunt-nexus-awesome.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AndreLion/grunt-nexus-awesome/issues"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "q": "~1.0.1",
+    "request": "~2.45.0",
+    "tar": "~1.0.1",
+    "temp": "~0.8.1",
+    "xml2js": "^0.4.16"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-clean": "~0.6.0",
+    "grunt-contrib-nodeunit": "~0.4.1",
+    "nock": "~0.48.1"
+  },
+  "keywords": [
+    "gruntplugin",
+    "nexus",
+    "artifact"
+  ]
+}
